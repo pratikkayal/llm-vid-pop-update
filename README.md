@@ -1,6 +1,6 @@
 # llm-vid-pop
 
-A comprehensive tool for downloading and managing YouTube video data for machine learning applications, particularly focused on video popularity prediction.
+This tool facilitates downloading and managing YouTube video data for the research paper "[Large Language Models Are Natural Video Popularity Predictors](https://openreview.net/pdf?id=vUgDEZ0rYN)".
 
 ## Overview
 This repository provides tools to download YouTube videos, thumbnails, and captions at scale. It's designed to support research on video popularity prediction by efficiently collecting and organizing a large corpus of video data.
@@ -18,19 +18,9 @@ llm-vid-pop/
 ├── youtube_dataset_collector.py       # Main script for downloading YouTube content
 ├── quantiles/                 # Contains video IDs organized by popularity quantiles
 ├── videos/                    # Downloaded videos in mp4 format
-├── thumbnails/                # Video thumbnails in jpg format
-├── captions/                  # Video captions in json format
-├── video_description/         # Video descriptions in text format
-├── text_emb/                  # Text embeddings generated from video metadata
-│   ├── mpnet_caption_features.pkl
-│   ├── mpnet_coarse_llama370B_introduction_features.pkl
-│   ├── mpnet_description_features.pkl
-│   ├── mpnet_title_features.pkl
-│   └── mpnet_videotext_features.pkl
-├── videoemb/                  # Video embeddings extracted using CLIP
-│   ├── 10frames_clip/         # Embeddings using every 10th frame
-│   └── 20frames_clip/         # Embeddings using every 20th frame
-└── thumbnail_emb/             # Thumbnail embeddings created using ResNet-56
+├── thumbnails/                # Downloaded video thumbnails in jpg format
+├── captions/                  # Downloaded video captions in json format
+├── video_description/         # Downloaded video descriptions in text format
 ```
 
 ## Usage
