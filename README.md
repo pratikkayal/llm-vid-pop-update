@@ -13,6 +13,7 @@ This repository provides tools to download YouTube videos, thumbnails, and capti
 
 ## Repository Structure
 
+```
 llm-vid-pop/
 ├── youtube_dataset_collector.py       # Main script for downloading YouTube content
 ├── quantiles/                 # Contains video IDs organized by popularity quantiles
@@ -30,6 +31,7 @@ llm-vid-pop/
 │   ├── 10frames_clip/         # Embeddings using every 10th frame
 │   └── 20frames_clip/         # Embeddings using every 20th frame
 └── thumbnail_emb/             # Thumbnail embeddings created using ResNet-56
+```
 
 ## Usage
 ```bash
