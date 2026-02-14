@@ -1,6 +1,6 @@
 # llm-vid-pop
 
-This tool facilitates downloading and managing YouTube video data for the research paper "[Large Language Models Are Natural Video Popularity Predictors](https://openreview.net/pdf?id=vUgDEZ0rYN)".
+This tool facilitates downloading and managing YouTube video data for the research paper "[Large Language Models Are Natural Video Popularity Predictors](https://aclanthology.org/2025.findings-acl.597/)".
 
 ## Overview
 This repository provides tools to download YouTube videos, thumbnails, and captions at scale. It's designed to support research on video popularity prediction by efficiently collecting and organizing a large corpus of video data.
